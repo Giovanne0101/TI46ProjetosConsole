@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace TI46ProjeosConsole
 {
@@ -11,10 +12,14 @@ namespace TI46ProjeosConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ola mundo");
-            Console.WriteLine("teste, linha 2");
-            Console.WriteLine("Paulista");
-        }
+            string nome;
+            int nota1, nota2, nota3, nota4, resultado;
+            Console.WriteLine("Escreva seu nome: ")
+            nome = Console.ReadLine();
+            Console.WriteLine("Seja Bemm Vindo, " + nome; "\n");
+            
+            Console.WriteLine("Digite as notas do aluno", nome, "\n")
+            Console.ReadKey();
 
-    }
+        }
 }
